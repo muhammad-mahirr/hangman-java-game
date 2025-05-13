@@ -31,20 +31,22 @@ The game selects a random word from a text file, and you have to guess it letter
    banana
    chicken
    ```
-3. **Ensure `Hangman.txt` is in the Same Directory as `HangmanGame.java`.**
-4. **Open Command Prompt (Windows) or Terminal (Mac/Linux)**
+3. **Make sure the Hangman.txt file is located inside the `assets/` folder or update the file path in the code accordingly.**
 
-   Navigate to the directory where HangmanGame.java is located.
+   The game will look for `Hangman.txt` in the same directory as the `HangmanGame.java` file.
+   
+5. **Open Command Prompt (Windows) or Terminal (Mac/Linux)**
 
-   Compile the program:
+   Navigate to the root directory of the project, where `src/` and `assets/` folders are located.
+   In the root directory, compile the `HangmanGame.java` file from the `src/` folder using the following command:
    ```
-   javac HangmanGame.java
+   javac src/HangmanGame.java
    ```
    Run the program:
    ```
-   java HangmanGame
+   java -cp src HangmanGame
    ```
-5. **You can also copy the code and paste it into any online Java compiler to run the game easily**
+6. **You can also copy the code and paste it into any online Java compiler to run the game easily**
 
    Just make sure to add or simulate the Hangman.txt word list if the compiler allows file input.   
 
